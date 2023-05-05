@@ -15,7 +15,7 @@ To invoke Sshell, compile all .c files in the repository and run the resulting e
 gcc *.c -o sshell
 ./sshell
 ```
-Sshell can be invoked both interactively and non-interactively. If shellby is invoked with standard input not connected to a terminal, it reads and executes received commands in order.
+Sshell can be invoked both interactively and non-interactively. If sshell is invoked with standard input not connected to a terminal, it reads and executes received commands in order.
 
 Example:
 ```
